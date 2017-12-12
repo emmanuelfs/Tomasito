@@ -6,16 +6,16 @@ a
     text-decoration: none !important;
 }
 
-.sidebar3 
-{
-    padding-top: 30px;
+.sidebar3 {
+    padding-top: 20px;
     height: 100vh;
     color: #abb;
     background: black;
 }
 
 .logo
-{	padding-top:15px;
+{	padding-top:20px;
+    padding-bottom:25px;
 	margin: auto;
 	text-align: center;
 	height: 20vh;
@@ -62,8 +62,21 @@ li:hover
 	text-align: center;
 }
 
+.main-content > h1 {
+    font-size: 4rem;
+    padding-bottom: 115px !important;
+}
+
 .main-content > p > a
 {
+    margin-top: 20px;
     color: white;
 
+}
+
+.botonSelect {
+    padding: 15px;
+    height: 25vh;
+    border: 2px solid rgba(0, 63, 87, 0.35);
+    border-radius: 15%;
 }
