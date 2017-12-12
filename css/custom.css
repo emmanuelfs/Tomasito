@@ -1,0 +1,63 @@
+/* CSS */
+
+.sidebar4 {
+		padding-top: 30px;
+		height:80vh;
+}
+.sidebar3
+{
+
+	color: #abb;
+	background: black;
+}
+
+.logo
+{	padding-top:15px;
+	margin: auto;
+	text-align: center;
+	height: 20vh;
+
+}
+
+.logo > a > img
+{
+	border:solid darkgrey 2px;
+	border-radius:100%;
+	padding:5px;
+	height: 100px;
+	width: 100px;
+
+}
+
+i {
+	color: white;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+li
+{
+	list-style-type: none;
+	padding:5px;
+	border-bottom:2px solid white;
+}
+
+ul{padding-left:0px;}
+
+.list
+{
+	padding-left:20px;
+}
+
+li:hover
+{
+	background-color: rgba(0, 63, 87, 0.75);
+	cursor:pointer;
+}
+.main-content
+{
+	text-align: center;
+}
+
+.main-content > p > a
+{color: white;}
