@@ -1,5 +1,10 @@
 /* CSS */
 
+a {
+	color: #abb !important;
+    text-decoration: none !important;
+}
+
 .sidebar4 {
 		padding-top: 30px;
 		height:80vh;
