@@ -6,6 +6,11 @@
     display: none !important;
 }
 
+body {
+    min-height: 100vh;
+    background: no-repeat linear-gradient(#064072,#4a5f75);
+}
+
 @media screen and (max-width: 768px) {
 
 
@@ -44,6 +49,8 @@
     .minimenu > ul > li {
         list-style-type: none;
         text-align: center;
+        height: 3rem;
+        line-height: 3rem;
     }
 
     .minimenu > ul {
@@ -52,17 +59,17 @@
     }
 
     .minimenu {
-        min-width: 85vw;
+        min-width: 80vw;
         max-width: 95vw;
         font-size: 1.25rem;
         padding: 10px 15px;
         color: white;
         border-radius: 3px;
-        box-shadow: 0 0 15px black;
+        box-shadow: 0 0 2px black;
         background: black;
     }
     .line-separator {
-        height: 1px;
+        height: 1px !important;
         background: white;
     }
 }
